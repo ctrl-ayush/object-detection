@@ -1,0 +1,122 @@
+# ==============================
+
+# Python
+
+# ==============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python logs
+
+*.log
+
+# ==============================
+
+# FastAPI / Backend
+
+# ==============================
+
+
+
+
+# Cache
+
+.cache/
+
+# ==============================
+
+# Node / React
+
+# ==============================
+
+node_modules/
+build/
+dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React environment files
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================
+
+# Docker
+
+# ==============================
+
+docker-compose.override.yml
+
+# ==============================
+
+# IDE / Editor
+
+# ==============================
+
+# PyCharm
+
+.idea/
+
+# VSCode
+
+.vscode/
+
+# Mac
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+# ==============================
+
+# Git
+
+# ==============================
+
+*.swp
+*.swo
+
+# ==============================
+
+# Jupyter (if used)
+
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+
+# Coverage Reports
+
+# ==============================
+
+.coverage
+coverage.xml
+htmlcov/
+
+
+

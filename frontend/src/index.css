@@ -1,0 +1,22 @@
+/* Reset default browser spacing */
+body {
+  margin: 0;
+  padding: 0;
+
+  /* Smooth font rendering */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Beautiful gradient background */
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Root container width */
+#root {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+
+  backend:
+    build: ./backend
+    container_name: object-detection-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/temp:/app/temp
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: object-detection-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true
+    depends_on:
+      - backend
+    restart: always
