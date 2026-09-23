@@ -242,13 +242,7 @@ http://localhost:3000
 
 ---
 
-# 🎬 Project Demonstration
 
-Watch the complete project walkthrough on YouTube:
-
-**https://youtu.be/278nPWZNpzY?si=aa3asagH6g1MGq-K**
-
----
 
 # 📸 Screenshots
 
@@ -273,19 +267,6 @@ You can add screenshots such as:
 * Cloud deployment (AWS, Azure, GCP)
 * Detection analytics dashboard
 
----
-
-# 🤝 Contributions
-
-Contributions, feature requests, and suggestions are welcome. Feel free to fork the repository and submit a Pull Request.
-
----
-
-# 👨‍💻 Author
-
-**Mandeep Kharb**
-
-If you found this project helpful, consider giving it a ⭐ on GitHub.
 
 ---
 
